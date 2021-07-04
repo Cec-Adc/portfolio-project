@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - SheCodes Portfolio</title>
+    <meta name="description" content="About Cécile" />
+    <title>About Cécile</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,6 +29,28 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img src="/images/logo.png" alt="logo" class="logo d-none d-md-block" />
+        <img
+          src="/images/logo-small.png"
+          alt="logo"
+          class="logo d-block d-md-none"
+        />
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="homepage">Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="about-Cecile">About</a>
+        </li>
+        <li><a href="/work.html" title="Cecile's work">Work</a></li>
+        <li><a href="/contact.html" title="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <body>
     <div class="content-section container">
       <div class="row">
@@ -52,6 +75,39 @@
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between mb-5 mt-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn branding-btn mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:cecile.adach@gmail.com" class="email-link"
+            >cecile.adach@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com" target="_blank" title="GitHub Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
