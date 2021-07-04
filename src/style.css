@@ -84,17 +84,29 @@ p {
   padding: 120px 60px;
 }
 
-.about-section {
+.content-section {
   padding: 120px 60px;
 }
-.about-section h1 {
+.content-section h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-size: 18px;
   font-family: var(--default-font);
+}
+
+.content-section h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+  font-weight: bold;
+  margin: 0;
+}
+
+.content-section hp {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
